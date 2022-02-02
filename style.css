@@ -1,0 +1,103 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+    color: #000000;
+    border: none;  
+    }
+h1{
+    color: rgb(255, 255, 255);
+    }
+input,label {
+    display: block;
+    width: 100%;
+    }
+input:focus, label:focus{
+     outline: none;    
+    }
+
+a   { 
+     color: #1269b1;    
+ 
+    }
+body{
+     padding-top: 8vh; /* view hight -> 5% datela*/
+     background-image: url('img/star.jpg');
+     background-size: cover;
+     
+     }
+#main-container, form{
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #FFF;
+     border-radius: 10px;
+     padding: 25px;
+
+    }
+#main-container, h1{
+     text-align: center;
+     margin-bottom: 25px;
+     font-size: 1.8rem;
+    }
+    
+form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+.full-box{
+        flex: 1 1 100%;
+        position: relative;
+        
+    }
+.half-box{
+        flex: 1 1 45%;
+    }
+.spacing{
+        margin-right: 2.5%;
+    }
+label{
+        font-weight: bolder;
+        font-size: .8rem;
+    }
+ input{
+        border-bottom: 2px solid #323232;
+        padding: 10px;
+        font-size: 0.9rem;
+        margin-bottom: 40px;
+    }
+input:focus{
+        border-color:#1269b1;
+    }
+input[type="submit"]{
+        color: #000000;    
+        background-color:#000000;
+        color: #FFF;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 450px;
+        cursor: pointer;
+    
+    }
+#agreement{
+        margin-right: 5px;
+        display: inline-block;
+        width: auto;
+    }
+    
+ #agreement-label{
+        display: inline-block;
+        width: auto;
+    }
+.error-validation{
+        color: #FF1A1A;
+        position: absolute;
+    }
+.template{
+        display: none;
+    }
+
